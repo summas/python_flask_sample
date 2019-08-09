@@ -21,7 +21,7 @@ class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), index=True, unique=True)
     description = db.Column(db.String(120), index=True, unique=True)
-    user_image_url = db.Column(db.String(120), index=True, unique=True)
+    user_image_url = db.Column(db.String(120), index=True, unique=False)
     date_published = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     twitter_id = db.Column(db.String(64), nullable=False, unique=True)
 
@@ -105,9 +105,9 @@ def upload_file():
         return render_template('result.html', name=request.form['name'], image_url=filepath)
 
 
-@app.route('/form')
+@app.route('/userform')
 def form():
-    return render_template('form.html')
+    return render_template('userForm.html')
 
 
 @app.route('/register', methods=['POST'])

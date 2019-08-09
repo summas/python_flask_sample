@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+  </head>
+  <body>
+    <h1>記事を登録</h1>
+    <form method="POST" action="/register" enctype="multipart/form-data">
+      <input placeholder="タイトル" name="username" type="text"/>
+      <textarea name="description" placeholder="コメント">
+      </textarea>
+      <input type="file" name="image"/>
+      <input placeholder="twitter ID" name="twitter_id" type="text"/>
+      <input value="送信" type="submit"/>
+    </form>
+  </body>
+</html>
