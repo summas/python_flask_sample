@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25ead3e5-13f6-4fdb-a720-3d5c5d684ba9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/templates/contentsForm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/userForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,18 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="127" column="31" lean-forward="true" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/templates/userForm.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,8 +73,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="72" lean-forward="true" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+            <state relative-caret-position="75">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/migrations/versions/36c1b14d4c04_.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -132,6 +129,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -140,17 +142,17 @@
         <option value="$PROJECT_DIR$/venv/templates/form.html" />
         <option value="$PROJECT_DIR$/venv/templates/contents.py" />
         <option value="$PROJECT_DIR$/venv/contents.py" />
-        <option value="$PROJECT_DIR$/venv/templates/index.html" />
         <option value="$PROJECT_DIR$/venv/templates/contentsForm.html" />
         <option value="$PROJECT_DIR$/venv/app.py" />
+        <option value="$PROJECT_DIR$/venv/templates/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1531" />
-    <option name="y" value="206" />
+    <option name="x" value="1503" />
+    <option name="y" value="50" />
     <option name="width" value="1678" />
-    <option name="height" value="816" />
+    <option name="height" value="954" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -170,6 +172,12 @@
               <item name="FlaskApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlaskApp" type="462c0819:PsiDirectoryNode" />
               <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlaskApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlaskApp" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,11 +231,26 @@
       <option name="project" value="LOCAL" />
       <updated>1565143487830</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Modified Commit">
+      <created>1565337379995</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565337379995</updated>
+    </task>
+    <task id="LOCAL-00003" summary="DB change Commit">
+      <created>1565337463837</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565337463837</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1531" y="206" width="1678" height="816" extended-state="0" />
+    <frame x="1503" y="50" width="1678" height="954" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20760411" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -239,10 +262,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49969825" visible="true" weight="0.32872927" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49969825" weight="0.39917126" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49969825" weight="0.32872927" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49969825" visible="true" weight="0.33526683" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003018" side_tool="true" weight="0.39873418" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32792583" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32734805" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -250,7 +273,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Modified Commit" />
+    <MESSAGE value="DB change Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="DB change Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -370,13 +395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/templates/theme.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/static/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -384,10 +402,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/templates/theme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/migrations/versions/36c1b14d4c04_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="72" lean-forward="true" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
