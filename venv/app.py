@@ -40,7 +40,7 @@ class Contents(db.Model):
 
 
 @app.route('/reply/1', methods=['GET'])
-def answerß():
+def answer():
     return render_template('answer.html')
 
 
